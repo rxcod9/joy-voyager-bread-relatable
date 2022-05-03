@@ -14,7 +14,7 @@ class DummyRelatablesTableSeeder extends Seeder
      */
     public function run()
     {
-        $count = 100;
+        $count = 20;
         Relatable::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
